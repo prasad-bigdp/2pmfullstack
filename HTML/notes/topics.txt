@@ -8,6 +8,10 @@ HTML
    -- block vs inline
    -- lists
    -- tables
+   -- forms
+   -- form validations
+   -- media
+   -- HTML5
 
 profile
 www
