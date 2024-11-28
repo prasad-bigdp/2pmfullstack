@@ -19,4 +19,4 @@ Github: Github is a website to share,deploy and test your code
 create an account in github and create a new repository
 
 In terminal , type   git remote add origin "repository link"
-and to push , type git push -u origin main/master
+and to push , type git push -u origin main/maste
