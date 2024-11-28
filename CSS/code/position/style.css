@@ -1,0 +1,43 @@
+.box{
+    padding: 10px;
+    background-color: red;
+    margin: 5px;
+    font-size: 32px;
+    color: white;
+    position:absolute;
+
+    border-radius: 50%;
+}
+/* .box3{
+ position: fixed;
+right: 0px;
+bottom: 0px;
+height: 100px;
+border-radius: 50%;
+}
+.box2{
+    height: 100px;
+    background-color: black;
+    position: sticky;
+    top: 50px;
+} */
+ .box1{
+    top:0%;
+    left:50%;
+ }
+ .box2{
+    top:50%;
+    left:0%;
+ }
+ .box3{
+    bottom:50%;
+    right:0%;
+ }
+ .box4{
+    bottom:0%;
+    left:50%;
+ }
+ .box5{
+    top: 50%;
+    left:50%;
+ }

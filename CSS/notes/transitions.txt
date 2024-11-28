@@ -1,0 +1,13 @@
+Transform: Transform is a property which contains sub properties such as scale,rotate,translate etc..,
+scale: scale is used to zoom the element
+rotate is used to rotate the element
+translate: translate  is used to move the element
+transition: transition is used to observe the change from one state to another state
+transition : transition-properties transition-time transition-function
+  -- transition-properties: it contains property names for which transition is applying. we can write 'all' to include all the properties.
+  -- transition-time: it contains time fow which transition is applied
+  -- transition-function: we can define different functions to control speed of transition such as
+    ease,ease-in,ease-out,ease-in-out,linear etc..,
+
+Animations: Animations are nothing but a series of transitions
+

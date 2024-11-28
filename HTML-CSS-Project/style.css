@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 1s ease;
+    scroll-behavior: smooth;
+}
+:root{
+    --color1:rgb(11, 255, 255);
+    --color2:blue;
+}
+header{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+.bombLeftOut{
+    animation-duration: 10s !important;
+    -webkit-animation-duration:10s !important;
+}
+.logo{
+    display: flex;
+   align-items: center;
+   gap: 10px;
+   font-size: 48px;
+}
+.logo img{
+    height: 70px;
+}
+.name span{
+    color: var(--color1)
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navigation{
+    display:flex;
+    gap: 20px;
+}
+.navigation a{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+button{
+    background-color:white;
+    color: black;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.navigation a:hover{
+color: var(--color1);
+}
+button:hover{
+    background-color: var(--color2);
+    color: white;
+}
+button a:hover{
+    color: white;
+}
+.heading{
+    text-align: center;
+    font-size: 32px;
+    /* text-shadow: 2px 2px 3px var(--color1); */
+    background: linear-gradient(to right,var(--color1),blue);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+section{
+    padding: 50px 100px;
+}
+#banner{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.bannerLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+.bannerLeft h2{
+    font-size: 32px;
+}
+.bannerLeft h2>span{
+    /* color: var(--color1); */
+}
+.bannerLeft p{
+    font-size: 24px;
+}
+.buttons:nth-child(1){
+    background-color: var(--color1);
+    color: white;
+}
+.buttons:nth-child(2){
+    background-color: transparent;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.lottie{
+    width: 500px; 
+    height: 500px";
+}
+#about{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.aboutPic{
+    height: 300px;
+    clip-path: circle(150px);
+    filter:grayscale()
+}
+.aboutPic:hover{
+    filter: none;
+}
+#about p{
+    font-size: 24px;
+    text-align: justify;
+}
+#skills{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+#skills img{
+    width: 200px;
+    height: 200px;
+}
+#projects{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.project{
+    border: 1px solid #333;
+    box-shadow: 2px 3px 2px #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.project img{
+    height: 300px;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    padding: 30px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    box-shadow: 2px 3px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+input{
+    height: 30px;
+    width: 300px;
+}
+textarea
+{
+    height: 50px;
+    width: 300px;
+    resize: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* media queries*/
+@media (max-width:570px){
+ header{
+    flex-direction: column;
+ }
+ .menu{
+    flex-direction: column;
+ }
+ .navigation{
+    flex-direction: column;
+ }
+  #banner{
+   flex-direction: column;
+ }
+ section{
+    padding:10px;
+ }
+ .lottie{
+    width: 300px; 
+    height: 300px";
+}
+#about{
+    flex-direction: column;
+}
+#skills{
+    grid-template-columns: repeat(2,1fr);
+}
+#projects{
+        grid-template-columns: repeat(1,1fr);
+}
+}
+@media (min-width:571px) and (max-width:847px){
+ header{
+    flex-direction: column;
+ }
+ .menu{
+    flex-direction: column;
+ }
+ #projects{
+        grid-template-columns: repeat(2,1fr);
+}
+ section{
+    padding:30px 50px;
+ }
+ #skills{
+    grid-template-columns: repeat(3,1fr);
+}
+ #banner{
+   flex-direction: column;
+ }
+
+ .lottie{
+    width: 400px; 
+    height: 400px";
+}
+}
+@media (min-width:848px) and (max-width:1080px){
+  
+}

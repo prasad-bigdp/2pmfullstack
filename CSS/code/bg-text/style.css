@@ -1,0 +1,20 @@
+body{
+   /* background-color: plum; */
+   /* background:linear-gradient(blue,white,blue,white,blue,white,blue,white,blue,white,blue,white,blue,white); */
+   /* background: radial-gradient(green,red,green,red,green,red,green,red);
+   height: 100vh; */
+   /* background-image: url('./a.webp');
+   background-repeat: no-repeat;
+   height: 100vh;
+   background-position: center center;
+   background-size: contain; */
+}
+#myDiv{
+   height: 100vh;
+}
+#para1{
+   height: 50%;
+}
+#para2{
+   height: 50%;
+}
