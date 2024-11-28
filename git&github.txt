@@ -11,5 +11,8 @@ Goto terminal ----> new terminal
    ii. git add .
    iii. git commit -m "message"
       for first time, you need to enter configs
+      git config --global user.email "youremailid"
+      git config --global user.name "your username"
+      again do add and commit 
 
 Github: Github is a website
