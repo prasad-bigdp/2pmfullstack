@@ -14,4 +14,7 @@ readymade templates: htmlrev,startbootstrap
 
 fonts: google fonts, dafont,1001 fonts
 
-deployements: git&github
+deployements: git&github, netlify
+
+communities: dev.to,hashnode
+
