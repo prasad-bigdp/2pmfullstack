@@ -194,9 +194,20 @@ both(one,two)
 
 
 
+// write a function that accepts a string("full name") and returns first and last names
+//input: "Raja Prasad"
+//output:["Raja","Prasad"]
 
-
-
+function splitString (str)
+{
+ return str.split(' ')   
+}
+//convert the function into function expression
+var splitString2 = function (str) {
+	return str.split(" ")
+}
+var x = splitString("Raja Prasad")
+console.log(x)
 
 
 
