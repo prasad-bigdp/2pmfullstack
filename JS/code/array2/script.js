@@ -72,11 +72,29 @@ var val = names.every(function (x) {
 })
 console.log(val)
 
+// find
+var values = [5, 6, 7, 8, 9]
+var x= values.findIndex(function(val,ind){return val%2==0})
 
+console.log(x)
 
-
-
-
+var prices = [];
+function add_to_cart (val)
+{
+    prices.push(val)
+    var total = prices.reduce(function (prev, curr) {
+			return prev + curr
+		}, 0)
+    return total;
+}
+function remove_cart (i)
+{
+    prices.splice(i, 1);
+     var total = prices.reduce(function (prev, curr) {
+				return prev + curr
+			}, 0)
+			return total
+}
 
 
 
