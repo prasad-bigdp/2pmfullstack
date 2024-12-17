@@ -8,3 +8,6 @@ loops
 functions
 arrays
 objects
+-------- 
+  DOM 
+---------
