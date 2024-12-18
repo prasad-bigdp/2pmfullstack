@@ -35,7 +35,12 @@ console.log(y)
 Phase II: DOM Manipulation:
 We can manipulate any DOM elements using few methods such as
   i. textContent: it brings the text inside the selected element.
-  
+  ii. innerText : it brings the text inside the selected element but it also considers CSS
+  In case of visibility hidden in CSS, element will not displayed
+  iii. innerHTML : it brings the HTML code of the selected element but it might cause vulnerbilities such as XSS(cross site scripting)
+  iv. style : it brings the CSS of the selected element
+  v. classList: it is used to add/remove/toggle  class names
+  vi. value : we can take input value from html element using value
 
 
 
