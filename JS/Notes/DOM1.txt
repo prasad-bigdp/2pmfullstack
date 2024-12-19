@@ -42,5 +42,7 @@ We can manipulate any DOM elements using few methods such as
   v. classList: it is used to add/remove/toggle  class names
   vi. value : we can take input value from html element using value
 
+Phase III:DOM Creation:
+
 
 

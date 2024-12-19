@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+         display: grid;
+         grid-template-columns: repeat(3,1fr);
+         gap: 20px;
+        }
+        img{
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="movieDetails">
+       <input type="text" placeholder="enter image url" id="url"><br>
+       <input type="text" placeholder="enter movie name" id="mname">
+    </div>
+    <button onclick="getMovie()">submit my movie</button>
+    <!-- <button onclick="addData()">Add my name</button> -->
+    <div id="main">
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
