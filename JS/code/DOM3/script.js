@@ -1,8 +1,10 @@
-var mainDiv= document.getElementById('main')
+var mainDiv = document.getElementById('main')
+var c = 0;
 // function addData ()
 // {
+// c++;
 //     var newPara = document.createElement('p')//<p></p>
-//     newPara.textContent = "Prasad1";//<p>prasad</p>
+//     newPara.textContent = "Prasad"+c;//<p>prasad</p>
 //     mainDiv.appendChild(newPara)
 // }
 
