@@ -34,7 +34,7 @@ document.getElementById('form').addEventListener('submit', function (e)
     {
         alert("name should be minimum 6 characters")
     }
-    if (!(emailInput.match("/^S+@S+.S{3}+$/")))
+    if (!(emailInput.match("^S+@S+.S{3}+$")))
     {
         document.getElementById('emailError').textContent="Please enter valid email"
     }
