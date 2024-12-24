@@ -50,6 +50,9 @@ input[type="password"]:focus{
     border: none;
     outline: none;
 }
+input::placeholder{
+    padding-left: 20px;
+}
 #emailError{
     color: red;
 }

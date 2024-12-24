@@ -20,7 +20,7 @@
 // sum()
 
 
-const nameInput= document.getElementById('name').value
+const nameInput= document.getElementById('name')
 const emailInput = document.getElementById("email").value
 const passwordInput = document.getElementById("pwd").value
 const passwordInput2 = document.getElementById("pwd2").value
@@ -30,7 +30,8 @@ document.getElementById('form').addEventListener('submit', function (e)
 {
     e.preventDefault();
     console.log(e);
-    if (nameInput.trim().length < 6)
+    console.log(nameInput.value.length)
+    if (nameInput.value.trim().length < 6)
     {
         alert("name should be minimum 6 characters")
     }
@@ -44,10 +45,13 @@ document.getElementById('form').addEventListener('submit', function (e)
     }
     
 })
-function revealPassword() {
-	if (passwordInput2.type == "text") {
-		passwordInput2.type = "password"
+function revealPassword ()
+{
+    const pwd = document.getElementById("pwd2")
+    alert(pwd.type)
+	if (pwd.type == "text") {
+		pwd.type = "password"
 	} else {
-		passwordInput2.type = "text"
+		pwd.type = "text"
 	}
 }
