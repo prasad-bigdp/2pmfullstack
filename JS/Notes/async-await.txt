@@ -1,0 +1,29 @@
+function sum(){
+    console.log("hello world")
+}
+let sum= function(){
+    console.log("hello world")
+}
+//Arrow functions
+
+let sum = () =>   console.log("hello world")
+
+function display(){
+    a=20;
+    console.log("hello world")
+}
+let display = ()=>{ a=20;console.log("hello world") }
+
+
+The modern way of writing promises is async await
+
+
+
+
+
+
+
+
+
+
+
