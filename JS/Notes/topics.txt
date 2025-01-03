@@ -11,3 +11,12 @@ objects
 -------- 
   DOM 
 ---------
+events
+Timers
+fetch
+promises
+async await
+arrow functions
+API
+BOM
+libraries
